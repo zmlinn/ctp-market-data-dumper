@@ -23,9 +23,6 @@
 
 import importlib_metadata
 
-from .gateway import CtpGateway
-
-
 try:
     __version__ = importlib_metadata.version("vnpy_ctp")
 except importlib_metadata.PackageNotFoundError:
